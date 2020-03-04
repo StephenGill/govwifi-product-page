@@ -97,6 +97,31 @@ title: Cookies
             </tr>
           </tbody>
         </table>
+
+        <form id="cookie-settings">
+          <div class="govuk-form-group govuk-!-margin-top-6">
+            <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+              <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
+                Do you want to accept analytics cookies?
+              </legend>
+              <div class="govuk-radios govuk-radios--inline">
+                <div class="govuk-radios__item">
+                  <input class="govuk-radios__input" id="cookies-tracking-on" name="tracking" type="radio" value="on">
+                  <label class="govuk-label govuk-radios__label" for="cookies-tracking-on">
+                    Yes
+                  </label>
+                </div>
+                <div class="govuk-radios__item">
+                  <input class="govuk-radios__input" id="cookies-tracking-off" name="tracking" type="radio" value="off">
+                  <label class="govuk-label govuk-radios__label" for="cookies-tracking-off">
+                    No
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+          <button class="govuk-button" type="submit">Save cookie settings</button>
+        </form>
       </div>
     </div>
   </main>
