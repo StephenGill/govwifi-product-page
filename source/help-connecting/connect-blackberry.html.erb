@@ -1,0 +1,57 @@
+---
+title: Connect with a Blackberry - GovWifi
+description: Troubleshoot problems connecting to GovWifi with a Blackberry.
+---
+
+<div class="govuk-width-container">
+  <%= partial "shared/get-help/breadcrumbs", locals: { page: "Connect with a Blackberry" } %>
+  <div class="govuk-main-wrapper">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-one-third">
+          <%= partial 'shared/get-help/sidebar' %>
+      </div>
+      <main class="govuk-grid-column-two-thirds" role="main" id="main">
+        <h1 class="govuk-heading-l">Connect to GovWifi with a Blackberry</h1>
+        <p class="govuk-body">
+          Your device should connect automatically when you select <strong>GovWifi</strong> from your list of available wifi networks and enter your GovWifi password.
+        </p>
+        <p class="govuk-body">
+          If your device doesn't connect automatically:
+        </p>
+        <ol class="govuk-list govuk-list--number">
+          <li>
+            <p class="govuk-body">Open your wifi settings. A list of wifi networks appears.</p>
+          </li>
+          <li>
+            <p class="govuk-body">Select <strong>GovWifi</strong>. A settings menu appears.</p>
+            <img src="/images/troubleshooting/blackberry-step-2.jpg" alt="Screenshot of the WiFi authentication prompt on Blackberry" class="img-fluid">
+          </li>
+          <li>
+            <p class="govuk-body">Enter the username and password you received by email or text.</p>
+            <p class="govuk-inset-text">Your password is case sensitive. It's 3 words without spaces. The first letter of each word is capitalised.</p></li>
+          <li>
+            <p class="govuk-body">Select <strong>Advanced Options</strong></p>
+            <img src="/images/troubleshooting/blackberry-step-4.jpg" alt="Screenshot of Wifi authentication prompt with advanced options enabled on Blackberry" class="img-fluid">
+          </li>
+          <li>
+            <p class="govuk-body">Scroll down. For <strong>Security Sub Type</strong>, select <strong>PEAP</strong>.</p>
+            <img src="https://www.wifi.service.gov.uk/images/troubleshooting/blackberry-step-5.jpg" alt="Screenshot of WiFi &quot;Security Sub Type&quot; dropdown options on Blackberry" class="img-fluid">
+          </li>
+          <li>
+            <p class="govuk-body">For <strong>CA Certificate</strong>, select <strong>DigiCert Global Root CA</strong>.</p>
+          </li>
+          <li>
+            <p class="govuk-body">Select <strong>Connect</strong> on the top right of the screen.</p>
+          </li>
+        </ol>
+        <p class="govuk-body">
+            You should now be connected to Govwifi.
+        </p>
+        <h2 class="govuk-heading-m">Support</h2>
+        <p class="govuk-body">
+          If you still have problems connecting to GovWifi, contact the IT support desk for the building you're in.
+        </p>
+      </main>
+    </div>
+  </div>
+</div>

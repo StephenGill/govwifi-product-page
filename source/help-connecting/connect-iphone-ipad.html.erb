@@ -1,0 +1,55 @@
+---
+title: Connect with an iPhone or iPad - GovWifi
+description: Troubleshoot problems connecting to GovWifi with an iPhone or iPad.
+---
+
+<div class="govuk-width-container">
+  <%= partial "shared/get-help/breadcrumbs", locals: { page: "Connect with an iPhone or iPad" } %>
+  <div class="govuk-main-wrapper">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-one-third">
+          <%= partial 'shared/get-help/sidebar' %>
+      </div>
+      <main class="govuk-grid-column-two-thirds" role="main" id="main">
+        <h1 class="govuk-heading-l">Connect to GovWifi with an iPhone or iPad</h1>
+        <p class="govuk-body">
+          Your device should connect automatically when you select <strong>GovWifi</strong> from your list of available wifi networks and enter your GovWifi password.
+        </p>
+        <p class="govuk-body">
+          If your device doesn't connect automatically:
+        </p>
+        <ol class="govuk-list govuk-list--number">
+          <li>
+            <p class="govuk-body">Go to wifi settings and select <strong>GovWifi</strong>.</p>
+            <img src="/images/troubleshooting/ios-step-1.jpg" class="img-fluid" alt="Screenshot of WiFi credentials input on iOS">
+          </li>
+          <li><p class="govuk-body">Enter the username and password you received by email or text.</p>
+              <p class="govuk-inset-text">Your password is case sensitive. It's 3 words without spaces. The first letter of each word is capitalised.</p></li>
+          <li>
+            <p class="govuk-body">You'll be asked to confirm that the network presents the correct certificate. This protects you against fake networks which may harm your privacy.</p>
+            <p class="govuk-body">The correct certificate is called <strong>wifi.service.gov.uk</strong> and is issued by <strong>GeoTrust RSA CA 2018</strong>.</p>
+          </li>
+          <li><p class="govuk-body">Select <strong>More Details</strong> and scroll down.</p></li>
+          <li>
+            <p class="govuk-body"></p><p>Check that the SHA-1 Fingerprint matches:</p>
+            <p><strong>37 CE B5 7A 3F 38 EB 7C 66 A2 4E 90 BB 11 71 D7 BC 4D 65 1A</strong></p>
+            <p></p>
+          </li>
+          <li>
+            <p class="govuk-body">Select <strong>Certificate</strong> in the top left to go back to the previous screen.</p>
+          </li>
+          <li>
+            <p class="govuk-body">Select <strong>Trust</strong> in the top right.</p>
+          </li>
+        </ol>
+        <p class="govuk-body">
+            You should now be connected to Govwifi.
+        </p>
+        <h2 class="govuk-heading-m">Support</h2>
+        <p class="govuk-body">
+          If you still have problems connecting to GovWifi, contact the IT support desk for the building you're in.
+        </p>
+      </main>
+    </div>
+  </div>
+</div>

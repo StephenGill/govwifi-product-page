@@ -1,29 +1,21 @@
 ---
-title: Check your organisation email address - GovWifi
-description: Check your government or public sector email address to sign up to GovWifi.
+title: Check that your organisation has enabled GovWifi - GovWifi
+description: Check whether the organisation you work for has enabled GovWifi.
 ---
 
 <div class="govuk-width-container">
-  <%= partial "shared/support/breadcrumbs", locals: { page: "Check your organisation email address" } %>
+  <%= partial "shared/get-help/breadcrumbs", locals: { page: "Check that your organisation has enabled GovWifi" } %>
   <div class="govuk-main-wrapper">
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-one-third">
-        <%= partial 'shared/support/sidebar' %>
+        <%= partial 'shared/get-help/sidebar' %>
       </div>
       <main class="govuk-grid-column-two-thirds" role="main" id="main">
-        <h1 class="govuk-heading-l">Check your organisation email address</h1>
-        <p class="govuk-body">You can <%= link_to "signup to GovWifi", "/about-govwifi/connect-to-govwifi", class: "govuk-link" %>
-          using your public sector staff email address.
+        <h1 class="govuk-heading-l">Check that your organisation has enabled GovWifi</h1>
+        <p class="govuk-body">
+          You can only connect to GovWifi if the organisation you work for has enabled GovWifi for your email domain.
         </p>
-        <p class="govuk-body">If you don't have a public sector staff email address, you can
-          <%= link_to "connect to GovWifi as a visitor", "support/visitor-access-to-govwifi", class: "govuk-link" %>.
-        </p>
-
-        <div class="govuk-inset-text">
-          If your public sector staff email address is currently ineligible, please <a href="https://admin.wifi.service.gov.uk/help/new/user_support" class="govuk-link">contact us</a> to register your public sector organisation email domain.
-        </div>
-
-        <p class="govuk-body">You can check to see if your public sector staff email address is eligible below:</p>
+        <p class="govuk-body">Enter the last part of your email address to check.</p>
         <div class="govuk-form-group govuk-!-margin-bottom-4">
           <input class="govuk-input" aria-label="Search for eligible organisation emails" id="search-table" type="text" placeholder="Search email domains">
         </div>

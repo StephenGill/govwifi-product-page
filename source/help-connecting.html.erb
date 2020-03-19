@@ -1,0 +1,30 @@
+---
+title: Get help connecting - GovWifi
+description: Help solving any problems you might have connecting to GovWifi.
+---
+
+<div class="govuk-width-container">
+  <%= partial "shared/get-help/breadcrumbs", locals: { page: "Get help connecting" } %>
+  <div class="govuk-main-wrapper">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-one-third">
+          <%= partial 'shared/get-help/sidebar' %>
+      </div>
+      <main class="govuk-grid-column-two-thirds" role="main" id="main">
+        <h1 class="govuk-heading-l">Get help connecting to GovWifi</h1>
+        <p class="govuk-body">
+          If you're trying to connect for the first time, <%= link_to "check the organisation you work for has enabled GovWifi", "/help-connecting/check-organisation-email-address/", class: "govuk-link" %>.
+        </p>
+        <p class="govuk-body">
+          If that's not the problem, you can:
+        </p>
+        <ul class="govuk-list govuk-list--bullet">
+          <li>
+            try to fix the connection yourself - there are troubleshooting guides for <%= link_to "Android", "/help-connecting/connect-android/", class: "govuk-link" %>, <%= link_to "iPhone or iPad", "/help-connecting/connect-iphone-ipad/", class: "govuk-link" %>, <%= link_to "Apple Mac", "/help-connecting/connect-mac/", class: "govuk-link" %>, <%= link_to "Windows", "/help-connecting/connect-windows/", class: "govuk-link" %>, <%= link_to "Chromebook", "/help-connecting/connect-chromebook/", class: "govuk-link" %> and <%= link_to "Blackberry", "/help-connecting/connect-blackberry/", class: "govuk-link" %>
+          </li>
+          <li>contact the IT support desk for the building you're in - they’ll be able to help you using the <%= link_to "GovWifi technical documentation", "https://docs.wifi.service.gov.uk/troubleshooting/#support/", class: "govuk-link" %></li>
+        </ul>
+      </main>
+    </div>
+  </div>
+</div>
